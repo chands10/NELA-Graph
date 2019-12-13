@@ -20,4 +20,4 @@ JavaScript Dynamic Graph of NELA Data
 * Feed this graph into Cytoscape Desktop and use the AllegroLayout
 * Export Network to File with .cyjs extension (Export Network to Web Page may work better?)
 * Copy the "elements" section from the .cyjs file and paste into the elements section of the javascript file
-* Remove the layout section from the .js file
+* Remove the layout section from the javascript file
