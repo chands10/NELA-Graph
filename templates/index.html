@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <title>Graph</title>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.5.2/bluebird.min.js"></script> -->
+   		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script> -->
+	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.9.4/cytoscape.min.js"></script>
+	    <script type="text/javascript" src="{{ url_for('static', filename='jquery-3.4.1.min.js') }}"></script>
+		<!-- <script src="https://unpkg.com/numeric/numeric-1.2.6.js"></script> -->
+		<!-- <script src="https://unpkg.com/layout-base/layout-base.js"></script> -->
+		<!-- <script src="https://unpkg.com/cose-base/cose-base.js"></script> -->
+		<!-- <script src="https://unpkg.com/weaverjs@1.2.0/dist/weaver.min.js"></script> -->
+<!-- 	    <script type="text/javascript" src="{{ url_for('static', filename='cytoscape-fcose.js') }}"></script>
+	    <script type="text/javascript" src="{{ url_for('static', filename='cytoscape-spread.js') }}"></script>
+	    <script type="text/javascript" src="{{ url_for('static', filename='cytoscape-euler.js') }}"></script> -->
+	    <script src="https://unpkg.com/webcola/WebCola/cola.min.js"></script>
+	   	<script type="text/javascript" src="{{ url_for('static', filename='cytoscape-cola.js') }}"></script>
+	    <script type="text/javascript" src="{{ url_for('static', filename='graph.js') }}"></script>
+
+		<link type="text/css" href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<div id="cy" data-graph="{{ graph }}"></div> <!-- Cytoscape Graph -->
+	</body>
+</html>
