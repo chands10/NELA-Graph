@@ -1,4 +1,4 @@
-#NELA  Graph
+# NELA-Graph
 
 JavaScript Dynamic Graph of NELA Data
 
@@ -13,8 +13,7 @@ JavaScript Dynamic Graph of NELA Data
 * Nodes with relatively greater weights are bigger than those with lesser weights
 * Currently uses the cola Cytoscape layout (included in static folder)
 
-## General Notes
-* To use Hardcoded values: 
+## To Use Hardcoded Values
 * Note: Running the application with this modified javascript file may not use the hardcoded values correctly, and may default to using some layout
 * Create graph.json by uncommenting the lines in app.py and then running it
 * graph.json represents a cytoscape graph created from app.py using with node weights = sum of outgoing edge weights
